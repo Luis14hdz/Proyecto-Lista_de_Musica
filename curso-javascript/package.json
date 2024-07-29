@@ -1,0 +1,12 @@
+{
+  "name": "hola_mundo",
+  "version": "1.0.0",
+  "description": "Mi primera chamba",
+  "main": "index.js",
+  "scripts": {
+    "inicio":"node hola_mundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

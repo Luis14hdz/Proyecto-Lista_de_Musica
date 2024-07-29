@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+</head>
+<body>
+     <h3> Aqui se muestran los resultados</h3>
+     <div id="Resultados"></div>
+     <br>
+     <a href="Formulario.html">Volver al Formulario</a>
+    
+</body>
+<script> 
+const res = document.getElementById("Resultados")
+new URLSearchParams(window.location.search).forEach((val,name)=>{
+    res.append(`${name}: ${val}`)
+    res.append(document.createElement('br'))
+})
+</script>
+
+</html>
